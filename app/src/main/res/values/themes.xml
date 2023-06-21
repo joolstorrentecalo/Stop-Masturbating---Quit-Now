@@ -1,0 +1,27 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#E91E63</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">#E91E63</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_top_white</item>
+    </style>
+
+    <style name="ActionBarThemeOverlay">
+        <item name="colorControlNormal">#E91E63</item>
+    </style>
+
+    <style name="TextPrimary">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="TextPrimary.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

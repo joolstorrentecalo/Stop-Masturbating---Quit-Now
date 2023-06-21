@@ -1,0 +1,8 @@
+//CHANGELOG: (From 10/28/2022)
+//- Changed the icons to better represent their meanings
+//- The order of displaying items on the main-screen is now even
+//- Dates are now displayed in a better manner
+//- Added extra badges for even the most extreme collectors under us! (With new look)
+//- You can now set a ten year goal
+//- Changed days in year from 360 to 365 (12 / 30 = 365)
+// -Fixed unlimited months and days in a year  (Do not worry, your data will be the same)

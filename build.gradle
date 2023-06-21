@@ -1,0 +1,38 @@
+buildscript {
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    ext.versions = [
+            kotlin    : '1.8.0',
+            navigation: '2.4.1'
+    ]
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:${versions.navigation}"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    room_version = '2.4.0'
+    lifecycle_version = '2.4.0'
+    fragment_version = '1.4.0'
+    rx_android_version = '3.0.0'
+    dagger_version = '2.40.5'
+    activity_version = '1.4.0'
+}

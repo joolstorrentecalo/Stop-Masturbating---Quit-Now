@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<resources>
+    <dimen name="goal_item_padding_spacing">10dp</dimen>
+</resources>

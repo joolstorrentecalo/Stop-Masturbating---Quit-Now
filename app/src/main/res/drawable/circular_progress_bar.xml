@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="270"
+    android:toDegrees="270">
+    <shape
+        android:innerRadiusRatio="3"
+        android:shape="ring"
+        android:thickness="15dp"
+        android:useLevel="true">
+
+        <gradient
+            android:angle="0"
+            android:endColor="#F06292"
+            android:startColor="#F06292"
+            android:type="sweep"
+            android:useLevel="false" />
+
+        <TextView
+            android:id="@+id/tv_goal_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="26sp" >
+        </TextView>
+</shape>
+</rotate>
